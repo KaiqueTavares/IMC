@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanho_texto_rodape_splash">16sp</dimen>
+    <dimen name="tamanho_texto_padrao">12sp</dimen>
+</resources>

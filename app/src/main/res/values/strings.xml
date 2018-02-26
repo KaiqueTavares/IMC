@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IMC</string>
+    <string name="splash_Dev">Developed by Kaique Tavares</string>
 </resources>

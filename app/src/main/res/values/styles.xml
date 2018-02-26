@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">@dimen/tamanho_texto_padrao</item>
+    </style>
+
+    <!--Herdando parametros da nossa style label para usar nesse novo style-->
+    <style name="label_rodape_splash" parent="label">
+        <item name="android:textColor">#FFF</item>
+        <!--SP RESPONSAVEL POR FAZER A ESCALA PARA DEFICIENTES VISUAIS - FUNCIONA SO PARA TEXTO
+            Estou linkando o @dimen pega parametros de um arquivo XML que criei para eu reutilizar em toda a aplicação
+        -->
+        <item name="android:textSize">@dimen/tamanho_texto_rodape_splash</item>
+    </style>
+
 </resources>
